@@ -27,7 +27,7 @@ const Home = () => {
 
 
   return (
-    <div>Home
+    <div>
       <Search loadUser={loadUser} />
       {user && <p>{user.login}</p>}
     </div>
